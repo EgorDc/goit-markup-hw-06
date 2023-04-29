@@ -446,6 +446,19 @@ ul {
     width: 264px;
     margin: 0;
 }
+.footer-icon-box {
+    margin-right: 80px;
+    display: block;
+}
+.footer-name {
+    display: block;
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--background-color); 
+}
 
 .footer-socials {
     display: flex;
@@ -456,19 +469,69 @@ ul {
     width: 208px;
     min-height: 40px;
 }  
-.footer-name {
-    font-weight: 500;
-    display: block;
-    color: var(--background-color);
-    margin: 0;
-    margin-bottom: 16px;
-    padding: 0;
-    letter-spacing: 0.02em;
-}
+
 .socials-footer:hover,
 .socials-footer:focus {
     background-color: #31D0AA;
 }
+
+.footer-input-name{
+    display: block;
+    margin: 0;
+    margin-bottom: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--background-color);
+}
+.form-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-input-email {
+    /*display: block;*/
+    border: 1px solid var(--background-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 264px;
+    min-height: 40px;
+    margin-right: 24px;
+    padding: 8px auto 8px 16px;
+}
+.input-email {
+    display: flex;
+    padding-left: 16px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background: var(--text-color);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    
+    color: var(--background-color);     
+}
+.footer-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 16px;
+    background: #4D5AE5;
+    border-radius: 4px;
+    width: 165px;
+    min-height: 40px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    font-weight: 500;   
+
+    color: var(--background-color);
+
+}
+
+
 
 /*--------------------------------PORTFOLIO------------------------------*/
 .portfolio-section {
@@ -633,6 +696,8 @@ ul {
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 1px 3px rgba(0, 0, 0, 0.12), 
     0px 2px 1px rgba(0, 0, 0, 0.2);  
+
+    display: flex;
 }
 
 .modal-button-close {
